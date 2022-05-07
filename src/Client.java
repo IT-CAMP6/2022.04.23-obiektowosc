@@ -4,6 +4,8 @@ public class Client {
     int age;
     long pesel;
 
+    static int a;
+
     Address address;
 
     Client(String name, String surname) {
@@ -87,5 +89,24 @@ public class Client {
         m1();
         m2();
         m3();
+    }
+
+    static void m11() {
+        //kod
+    }
+
+    static void m22() {
+        //kod
+    }
+
+    static void m33() {
+        //kod
+    }
+
+    public static int calc2(int a, int b) {
+        m11();
+        m22();
+        m33();
+        return a*b;
     }
 }
